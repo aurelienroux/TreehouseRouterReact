@@ -10,6 +10,8 @@ import Courses from './components/Courses';
 import Teachers from './components/Teachers';
 
 import HTML from './components/courses/HTML';
+import CSS from './components/courses/CSS';
+import JavaScript from './components/courses/javascript';
 
 // Routes
 const routes = (
@@ -21,6 +23,8 @@ const routes = (
 
       <Route path="courses" component={Courses}>
         <Route path="html" component={HTML} />
+        <Route path="css" component={CSS} />
+        <Route path="javascript" component={JavaScript} />
       </Route>
     </Route>
   </Router>

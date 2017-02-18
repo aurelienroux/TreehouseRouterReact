@@ -5,7 +5,7 @@ const Teachers = () => {
   let teachers = TeacherList.map((teacher) => {
     return (
       <li className="teacher" key={teacher.id} >
-        <img className="teacher-img" src={teacher.img_src} />
+        <img className="teacher-img" src={teacher.img_src} alt=""/>
         <h3>{teacher.name}</h3>
         <p>{teacher.bio}</p>
       </li>
