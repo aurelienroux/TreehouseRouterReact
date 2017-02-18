@@ -9,7 +9,6 @@ import './css/style.css';
 // Routes
 import routes from './router';
 
-
 ReactDOM.render(
   routes,
  document.getElementById('root'));
