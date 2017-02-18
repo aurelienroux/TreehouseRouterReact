@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div className="container">
         <header>
-          <span className="icn-logo"><i className="material-icons">code</i></span>
+          <span className="icn-logo"><i className="material-icons"></i></span>
           <ul className="main-nav">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
@@ -13,6 +13,7 @@ class App extends Component {
             <li><a href="/courses">Courses</a></li>
           </ul>
         </header>
+        { this.props.children }
       </div>
     );
   }
