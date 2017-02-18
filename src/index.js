@@ -14,12 +14,11 @@ import About from './components/About';
 import Courses from './components/Courses';
 import Teachers from './components/Teachers';
 
-
 ReactDOM.render((
   <Router history={hashHistory}>
     <Route path="/" component={Home} />
     <Route path="about" component={About} />
-    <Route path="Courses" component={Courses} />
-    <Route path="Teachers" component={Teachers} />
+    <Route path="teachers" component={Teachers} />
+    <Route path="courses" component={Courses} />
   </Router>
 ), document.getElementById('root'));
